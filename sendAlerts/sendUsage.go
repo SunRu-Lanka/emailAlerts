@@ -76,7 +76,7 @@ func alerts() {
 	}
 }
 func sendEmailWithOutlook50(em,mac,customerName,sitename,usageGB,usageMb string){
-	c, err := smtp.Dial("192.168.1.28:25")
+	c, err := smtp.Dial("192.168.75.41:25")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -181,7 +181,7 @@ func alerts80() {
 	}
 }
 func sendEmailWithOutlook80(em,mac,customerName,sitename,usageGB,usageMb string){
-	c, err := smtp.Dial("192.168.1.28:25")
+	c, err := smtp.Dial("192.168.75.41:25")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -265,7 +265,7 @@ func alerts100() {
 	}
 }
 func sendEmailWithOutlook100(em,mac,customerName,sitename,usageGB,usageMb string){
-	c, err := smtp.Dial("192.168.1.28:25")
+	c, err := smtp.Dial("192.168.75.41:25")
 	if err != nil {
 		log.Fatal(err)
 	}
